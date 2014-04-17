@@ -2,7 +2,7 @@ OMeme::Application.routes.draw do
   root to: "memes#index"
   get "manages/index"
   get "manages/new"
-  post "manages/upload"
+  post "manages/create"
   get "memes/new"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
